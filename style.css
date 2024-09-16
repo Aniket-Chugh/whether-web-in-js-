@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,500;1,600;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url(background.408cf3c1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.container {
+    width: 98%;
+    display: block;
+
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    max-width: 600px; /* Control the size of the header */
+    display: flex;
+    justify-content: center;
+}
+
+.inputBox {
+    margin: auto;
+    position: relative;
+    width: 50%;
+    display: flex;
+    height: 33vh;
+    justify-content: center;
+    align-items: end;
+
+
+}
+
+.input-wrapper {
+   /* top: 43%; */
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+input {
+    width: 70%;  /* Adjust input width */
+    border: none;
+    outline: none;
+    padding: 10px 12px;
+    border-radius: 11px 0 0 11px; /* Rounded left side */
+    background: rgba(255, 255, 255, 0.773);
+    transition: 0.2s ease-in-out;
+    color: rgb(166, 166, 166);
+}
+
+input:focus {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.searchBtn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background: rgba(255, 255, 255, 0.773);
+    border-radius: 0 11px 11px 0; /* Rounded right side */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease;
+    color: black;
+}
+
+.searchBtn:hover {
+    background: rgba(200, 200, 200, 0.8); /* Hover effect */
+}
+
+.btnIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+
+#state{
+    font-size: 4rem;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    gap: 60px;
+}
+
+span{
+    font-size: medium;
+}
+
+.temp_c{
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+.icon {
+    margin-left: -26px;
+    height: 100px;
+    width: 100px;
+    display: none;
+}
